@@ -1,0 +1,29 @@
+{
+  "name": "leap-osc",
+  "version": "0.1.0",
+  "description": "Transmit data from Leap Motion controller over the Open Sound Control protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparkletop/Leap-OSC.git"
+  },
+  "keywords": [
+    "OSC",
+    "Open Sound Control",
+    "Leap Motion",
+    "Gesture tracking"
+  ],
+  "author": "Anders Eskildsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sparkletop/Leap-OSC/issues"
+  },
+  "homepage": "https://github.com/sparkletop/Leap-OSC",
+  "dependencies": {
+    "leapjs": "github:leapmotion/leapjs",
+    "osc": "^2.4.2"
+  }
+}
