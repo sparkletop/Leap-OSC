@@ -24,6 +24,7 @@
   "homepage": "https://github.com/sparkletop/Leap-OSC",
   "dependencies": {
     "leapjs": "github:leapmotion/leapjs",
-    "osc": "^2.4.2"
+    "osc": "^2.4.2",
+    "yaml": "^1.10.2"
   }
 }

@@ -1,0 +1,18 @@
+# Source and target IP and port
+addresses:
+  localIP: 127.0.0.1
+  localPort: 57130
+  targetIP: 127.0.0.1
+  targetPort: 57120
+
+# Which data to send
+parameters:
+  - palmPosition
+  - translation
+  - id
+  - grabStrength
+  - pinchStrength
+  - confidence
+
+# Don't send data frames with low confidence
+confidenceThreshold: 0.25
